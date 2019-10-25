@@ -48,7 +48,7 @@ queue = deque()
 seen = set()
 
 seen.add(start)
-queue.append(start)
+queue.append(starta)
 
 while queue:
     node = queue.popleft()
